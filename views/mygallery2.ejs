@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Gallery</title>
+</head>
+<link rel="stylesheet" href="./css/lightbox.min.css">
+<link rel="icon" href="../fav.png">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="./css/lightbox-plus-jquery.min.js"></script>
+<style>
+	.gallery{
+		margin: 0px 50px;
+	}
+	.gallery img{
+		transition: 1s;
+		margin: 2rem;
+		width: 200px;
+		border-radius: 1rem;		
+	}
+	.gallery img:hover{
+		filter: grayscale(100%);
+		transform: scale(1.1);
+	}
+	.mid{
+		display: block;
+		text-align: center;
+		font-size: 3.5rem;
+		text-decoration: underline;
+	}
+	.mi{
+		display: block;
+		text-align: center;
+	}
+	body{
+		background-image: linear-gradient(to right, rgb(122, 140, 236), rgb(141, 195, 245), rgb(121, 235, 223));
+	}
+	.big{
+		display: inline;
+	}
+</style>
+<body>
+	<div class="col-md-4 col-md-offset-4" id="gal">
+		<div class="mi" >
+			<div class="mid">
+			<p class="mid">MY GALLERY</p>
+			</div>
+			<div class="mi">
+			<p> <a href="/mygallery"><i class='fas fa-arrow-left' style='font-size:15px'></i></a>Page 2 <a href="/mygallery3"><i class='fas fa-arrow-right' style='font-size:15px'></i></a></p>
+			
+			</div>
+			<div class="back">
+				<p class="big">Go back to admin page: <a href="/profile"><i class="fa fa-arrow-circle-left" style="font-size:20px"></i></a> </p>
+			</div>
+		</div>
+		<div class="gallery">
+			<a href="https://source.unsplash.com/1000x1000/?weekly?water" data-lightbox="mygallery" ><img src="https://source.unsplash.com/300x300/?weekly?water" ></a>
+			<a href="https://source.unsplash.com/1000x1000/?nature,water" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?nature,wate"></a>
+			<a href="https://source.unsplash.com/1000x1000/?custom" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?custom"></a>
+			<a href="https://source.unsplash.com/1000x1000/?nature,air" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?nature,air"></a>
+			<a href="https://source.unsplash.com/1000x1000/?people" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?people"></a>
+			<a href="https://source.unsplash.com/1000x1000/?fashion" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?fashion"></a>
+			<a href="https://source.unsplash.com/1000x1000/?technology" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?technology"></a>
+			<a href="https://source.unsplash.com/1000x1000/?architecture" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?architecture"></a>
+			<a href="https://source.unsplash.com/1000x1000/?film" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?film"></a>
+			<a href="https://source.unsplash.com/1000x1000/?animals" data-lightbox="mygallery"><img src="https://source.unsplash.com/300x300/?animals"></a>
+		</div>
+	</div>
+</body>
+</html>

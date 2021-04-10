@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="icon" href="../fav.png">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	
+	</script>
+	<style>
+		#dash{
+			width: 600px;
+			margin: 20px auto;
+			
+		}
+		.nav{
+			border: 2px solid black;
+			margin: 20px 0;
+			padding: 30px;
+		}
+		.top{
+			text-align: center;
+		}
+		.li{
+			margin: 10px;
+			text-decoration: none;
+			color: black;
+			padding: 1rem;
+			border-radius: 0.5rem;
+		}
+		.abc{
+			text-align: center;
+		}
+		#user:hover{
+			background-color: white;
+		}
+		#to:hover{
+			background-color: white;
+		}
+		#home:hover{
+			background-color: white;
+		}
+		#gallery:hover{
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	<div id="dash">
+		<div class="top">
+			<p>Administration Dashboard</p>
+		</div>
+		<div class="nav">
+			<a href="/data" id="user"class="li">User Profile</a>
+			<a href="/home" id="home"class="li">Home</a>
+			<a href="/todo" id="to"class="li">To Do list</a>
+			<a href="/mygallery" id="gallery"class="li">My Gallery</a>
+		</div>
+		<div class="abc">
+			<a href="/logout"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
+		</div>
+	</div>
+</body>
+</html>

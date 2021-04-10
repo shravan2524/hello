@@ -1,0 +1,32 @@
+/*body,
+ table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }*/
+body{
+	text-align: center !important;
+    background-image: linear-gradient(to right, rgb(122, 140, 236), rgb(141, 195, 245), rgb(121, 235, 223));
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+#container{
+    border: 1px solid black;
+    margin-top: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+	box-shadow: -0.7rem -0.7rem  #888888;
+}
+input{
+	text-align: center;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
